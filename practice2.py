@@ -15,7 +15,7 @@ def simple_optionals3(arg):  # change only this line
     arg = "test"
     arg = None
     arg = 1
-    print(arg)
+    return arg
 
 
 def collections1(arg):  # change only this line
@@ -25,7 +25,8 @@ def collections1(arg):  # change only this line
 
 def collections2(arg):  # change only this line
     arg = {1, 2, 3}
-    print(arg)
+    arg = [1, 2, 3]
+    return arg
 
 
 def collections3(arg):  # change only this line
@@ -42,4 +43,4 @@ def collections4(arg):  # change only this line
 def collections5(arg):  # change only this line
     arg = ("name", "test", 1.0)
     arg = (1, "test", 1.0)
-    print(arg)
+    return arg

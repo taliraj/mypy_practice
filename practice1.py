@@ -23,4 +23,7 @@ def simple_builtins5(arg):  # change only this line
     print(arg)
 
 
-
+def simple_builtins6(arg):  # change only this line
+    arg = ["test", "name"]
+    print(arg)
+    return [1, 2]
